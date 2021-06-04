@@ -5,4 +5,12 @@ weight: 10
 # geekdocToc: 6
 # geekdocHidden: false
 ---
-[tutorial](http://futurile.net/2016/03/19/vim-surround-plugin-tutorial/)
+`ys` - Add surrounding ys
+
+`cs"'` - change surrounding
+
+`ds"` - delete surrounding
+
+`S` - Visual Surround with capital S
+
+[futurile tutorial](http://futurile.net/2016/03/19/vim-surround-plugin-tutorial/)
