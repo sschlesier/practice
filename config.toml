@@ -1,4 +1,4 @@
-baseURL = "http://practice.schlesier.ca/"
+baseURL = "https://practice.schlesier.ca/"
 languageCode = "en-us"
 title = "Practice"
 theme = "hugo-geekdoc"
