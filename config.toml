@@ -18,3 +18,7 @@ disablePathToLower = true
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+
+[params]
+  geekdocBreadcrumb = false
+  geekdocSearch = false
