@@ -1,12 +1,13 @@
 ---
-title: "More JSON Tools"
+title: "JSON Tools"
 weight: 20
 # geekdocFlatSection: false
 # geekdocToc: 6
 # geekdocHidden: false
 ---
+{{< toc >}}
 ## Jo
-#### Easily create valid json from a script
+**Easily create valid json from a script**
 
 Simple key value
 ```bash
@@ -29,7 +30,7 @@ Outputs
 https://github.com/jpmens/jo
 
 ## Gron
-#### Take json and output it as individual lines with a path to them for easy grep/sed etc, can also take lines and turn them back into json
+**Take json and output it as individual lines with a path to them for easy grep/sed etc, can also take lines and turn them back into json**
 
 ```bash
 jo key=value key2="another value" | gron
@@ -44,16 +45,18 @@ json.key2 = "“another";
 https://github.com/tomnomnom/gron
 
 ## Jp
-#### Apply JMESPath to json
+**Apply JMESPath to json**
 
 https://github.com/jmespath/jp
 
-## Jid
-#### Json interactive digger allows interactive building of queries to inspect json data
+## Jiq
+**Json interactive query is a repl for jq**
 
-https://github.com/simeji/jid
+`jiq -q` to output the jq query
+
+https://github.com/fiatjaf/jiq
 
 ## Jmespath-terminal
-#### A repl for jmespath
+**A repl for jmespath**
 
 https://github.com/jmespath/jmespath.terminal
