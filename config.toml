@@ -1,6 +1,6 @@
 baseURL = "https://practice.schlesier.ca/"
 languageCode = "en-us"
-title = "Practice"
+title = "practice.schlesier.ca"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
