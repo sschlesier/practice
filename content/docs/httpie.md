@@ -5,6 +5,8 @@ weight: 1
 # geekdocToc: 6
 # geekdocHidden: false
 ---
+https://devhints.io/httpie
+
 https://httpie.io/docs
 
 |Feature                 | Syntax                            |
