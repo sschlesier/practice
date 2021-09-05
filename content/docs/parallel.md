@@ -6,6 +6,8 @@ weight: 1
 # geekdocHidden: false
 ---
 
+A nice [overview](https://blog.ronin.cloud/gnu-parallel/)
+
 ## Easily execute commands per file
 
 parallel execution of command on each txt file
@@ -13,9 +15,35 @@ parallel execution of command on each txt file
 parallel commmand {} ::: *.txt
 ```
 
-Execute command a single instance at a time -j 1
+Track slot number `%` and job number `#`
 ```bash
-parallel -j 1 commmand {} ::: *.txt
+parallel echo {%} {#} {} ::: *.txt
+```
+outputs
+```bash
+1 1 foo.txt
+2 2 fee.txt
+1 3 fi.txt
+2 4 fum.txt
+```
+
+Manage max slots with `-j`
+
+Slots default to the number of available processors
+```bash
+parallel -j 1 echo {} ::: *.txt
+```
+outputs
+```bash
+1 1 foo.txt
+1 2 fee.txt
+1 3 fi.txt
+1 4 fum.txt
+```
+
+Check for correctness using `--dryrun`
+```bash
+parallel --dryrun echo {} ::: *.txt
 ```
 
 ## File and path variations
