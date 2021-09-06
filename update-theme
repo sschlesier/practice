@@ -4,3 +4,8 @@ rm -rf themes/hugo-geekdoc
 mkdir -p themes/hugo-geekdoc
 curl -L https://github.com/thegeeklab/hugo-geekdoc/releases/latest/download/hugo-geekdoc.tar.gz | \
 	tar -xz -C themes/hugo-geekdoc/ --strip-components=1
+
+git add --all
+theme_ver=$(cat themes/hugo-geekdoc/VERSION)
+git commit -m "bump theme to $theme_ver"
+git diff-tree --no-commit-id --name-only -r HEAD
