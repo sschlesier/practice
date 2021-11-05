@@ -1,0 +1,8 @@
+#! /usr/bin/env sh
+
+ver=$( hugo version | ag -o '\d+\.\d+\.\d+' )
+sed -i '' "s/HUGO_VERSION = \".*\"$/HUGO_VERSION = \"$ver\"/" netlify.toml
+
+git add --all
+git commit -m "bump hugo to $ver"
+git diff-tree --no-commit-id --name-only -r HEAD
