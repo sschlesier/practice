@@ -1,6 +1,6 @@
-#! /usr/bin/env sh
+#! /usr/bin/env bash
 
-ver=$( hugo version | ag -o '\d+\.\d+\.\d+' )
+ver=$(ag -o '\d+\.\d+\.\d+' <(docker run --rm klakegg/hugo version))
 sed -i '' "s/HUGO_VERSION = \".*\"$/HUGO_VERSION = \"$ver\"/" netlify.toml
 
 git add --all
