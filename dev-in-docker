@@ -1,0 +1,10 @@
+#! /bin/sh
+
+sleep 2 && open http://localhost:1313 &
+
+docker run --rm \
+	--volume "$PWD":/src \
+	--publish 1313:1313 \
+	--publish 35729:35729 \
+	klakegg/hugo \
+	server
