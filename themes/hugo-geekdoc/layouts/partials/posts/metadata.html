@@ -26,7 +26,9 @@
           {{ template "post-tag" dict "name" $name "page" . }}
         </span>
       {{ else }}
-        {{ template "post-tag" dict "name" $name "page" . }}
+        <span class="flex align-center">
+          {{ template "post-tag" dict "name" $name "page" . }}
+        </span>
       {{ end }}
     {{ end }}
     {{ $tc = (add $tc 1) }}
@@ -38,16 +40,8 @@
     <a
       class="gdoc-button__link"
       href="{{ .page.RelPermalink }}"
-      title="All posts tagged with '{{ .name }}'"
+      title="{{ i18n "posts_tagged_with" .name }}"
     >
-      {{ .name }}
-    </a>
-  </span>
-{{ end }}
-
-{{ define "post-author" }}
-  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
-    <a class="gdoc-button__link" href="{{ .page.RelPermalink }}" title="All posts of this author">
       {{ .name }}
     </a>
   </span>
