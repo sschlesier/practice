@@ -409,7 +409,7 @@
   },
   "fonts/GeekdocIcons.woff": {
     "src": "fonts/GeekdocIcons.woff",
-    "integrity": "sha512-z7TbxD7tjpDWk5lIitR3uaKCjNFekq6MoDa9J9zYqq54mhFusgNtfcCVsaySjz+NQUFqPKfgCwYALsImYaG1Ww=="
+    "integrity": "sha512-IRbxxJLoNdh7oVAS9rfZmWjI6jDcNY3i1HGunEqjkJIQe3rqrcCFoR/PsEpzg4Y60fslg94UTO3j3dhxrUjZ6g=="
   },
   "favicon/firefox_app_60x60.png": {
     "src": "favicon/firefox_app_60x60.png",
@@ -437,7 +437,7 @@
   },
   "fonts/GeekdocIcons.woff2": {
     "src": "fonts/GeekdocIcons.woff2",
-    "integrity": "sha512-IUHI38jIforP+rByj5TAnFmLGos90vC/nLkUodibKM12eUmkly0TKusjVy7ACzz0YJvuRFCf8o7e6bwVc76tVQ=="
+    "integrity": "sha512-ku3d75eR9HIutsBSxBGx2MOIckAePTdB7vY4aSR7XalvCvaXq0zHXV9EwzYfeKY4GUyf2BlSMqV9CKBbEFnN1Q=="
   },
   "fonts/KaTeX_Size3-Regular.woff2": {
     "src": "fonts/KaTeX_Size3-Regular.woff2",
