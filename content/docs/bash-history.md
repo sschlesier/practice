@@ -9,7 +9,7 @@ weight: 1
 
 `!:n` - repeat nth arg `echo fee fi fo fum` `echo !:2` => `echo fi`
 
-`!:n-$` - range of args (especially 1-$) `echo fee fi fo fum` `echo !:1-$` => `echo fee fi fo fum`
+`!:n-$` - range of args (especially 1-$) `echo fee fi fo fum` `echo !:2-$` => `echo fi fo fum`
 
 `!-m:$` - repeat last arg from the 2nd most recent command `echo fee fi fo fum` `ls echo !-2:$` => `echo fum`
 
