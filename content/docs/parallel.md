@@ -17,10 +17,8 @@ parallel commmand {} ::: *.txt
 
 Track slot number `%` and job number `#`
 ```bash
-parallel echo {%} {#} {} ::: *.txt
-```
-outputs
-```bash
+> parallel echo {%} {#} {} ::: *.txt
+
 1 1 foo.txt
 2 2 fee.txt
 1 3 fi.txt
@@ -31,10 +29,8 @@ Manage max slots with `-j`
 
 Slots default to the number of available processors
 ```bash
-parallel -j 1 echo {} ::: *.txt
-```
-outputs
-```bash
+> parallel -j 1 echo {} ::: *.txt
+
 1 1 foo.txt
 1 2 fee.txt
 1 3 fi.txt
@@ -50,10 +46,8 @@ parallel --dryrun echo {} ::: *.txt
 
 ### Insert filename with `{}`
 ```bash
-parallel echo {} ::: **/*
-```
-outputs
-```bash
+> parallel echo {} ::: **/*
+
 a.txt
 b.txt
 subdir/c.txt
@@ -62,10 +56,8 @@ subdir/d.txt
 
 ### Strip extension by adding `.`
 ```bash
-parallel echo {.} ::: **/*
-```
-outputs
-```bash
+> parallel echo {.} ::: **/*
+
 a
 b
 subdir/c
@@ -74,10 +66,8 @@ subdir/d
 
 ### Strip path by adding `/`
 ```bash
-parallel echo {/} ::: **/*
-```
-outputs
-```bash
+> parallel echo {/} ::: **/*
+
 a.txt
 b.txt
 c.txt
@@ -86,10 +76,8 @@ d.txt
 
 ### Strip path and extension by adding `/.`
 ```bash
-parallel echo {/.} ::: **/*
-```
-outputs
-```bash
+> parallel echo {/.} ::: **/*
+
 a
 b
 c
@@ -98,10 +86,8 @@ d
 
 ### Keep only path by adding `//`
 ```bash
-parallel echo {//} ::: **/*
-```
-outputs
-```bash
+> parallel echo {//} ::: **/*
+
 .
 .
 subdir
