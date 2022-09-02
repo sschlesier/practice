@@ -389,7 +389,7 @@
   },
   "fonts/GeekdocIcons.woff": {
     "src": "fonts/GeekdocIcons.woff",
-    "integrity": "sha512-geJIl6jzEyQ0NEsjMZ6TslQp5+cv9sn6qcP3WS+qgzmbhLwzfmu7jSgOzhqk2zUv73H2C8lCZPOgpLJk8qlN/Q=="
+    "integrity": "sha512-AtrYvXj/BLg00Bm9kxnwq3YPMCKCWXzZbUzdtp+tKw3b6N+e/pkpPLZvqZiZRkdf7GpEuDCD832cDZKSYiAfNQ=="
   },
   "fonts/KaTeX_Size4-Regular.woff": {
     "src": "fonts/KaTeX_Size4-Regular.woff",
@@ -409,7 +409,7 @@
   },
   "fonts/GeekdocIcons.woff2": {
     "src": "fonts/GeekdocIcons.woff2",
-    "integrity": "sha512-VtXALAaejI+nb3ADZH2lWBhyJes8LBeqcETr5c8hG1PYN1VldETG572sWbrO02odcYghWjHY79KdfMYy3y3VQQ=="
+    "integrity": "sha512-0lMFO8egxmQR+MburPGYbkcUiuwUbClKS1LvlqNsEyR59lazWywX8ja5KXstjWRmcpZGvAnTsMfAiy4HynCuPw=="
   },
   "fonts/KaTeX_Size4-Regular.woff2": {
     "src": "fonts/KaTeX_Size4-Regular.woff2",
@@ -497,6 +497,6 @@
   },
   "../VERSION": {
     "src": "../VERSION",
-    "integrity": "sha512-U5FsN1YiH44c5c7UMJrd+yMvzQo8U07e26/kCaUgN/aG0e9qio5jnly+nLJtcCGsdYwzqwkDJMGVA3llX4KgtQ=="
+    "integrity": "sha512-NL6VuaqKmyhJHQ4Ur7YT80H61YtvVGA2GXfU7DXe2sVtc9YQzTFTnOU9xGIs1ShntMfygv99wzMl88/pFrSY2g=="
   }
 }
