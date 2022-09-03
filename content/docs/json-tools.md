@@ -44,6 +44,11 @@ json.key2 = "“another";
 
 https://github.com/tomnomnom/gron
 
+## jc
+**JSONifies the output of many CLI tools, file-types, and common strings for easier parsing in scripts**
+
+https://github.com/kellyjonbrazil/jc/wiki/Tips-and-Tricks
+
 ## Jp
 **Apply JMESPath to json**
 
