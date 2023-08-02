@@ -1,114 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83212fff-9b3c-4ca1-a119-2786566bfba1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/data/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/data/assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/i18n/de.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/i18n/de.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/i18n/en.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/i18n/en.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/opengraph.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/opengraph.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/schema.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/schema.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/twitter_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/microformats/twitter_cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/page-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/page-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/site-footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/layouts/partials/site-footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/android-chrome-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-1024x1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-167x167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-1242x2208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-1242x2688.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-1536x2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-1620x2160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-1792x828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-2208x1242.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-2208x1242.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-2388x1668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-2436x1125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-2688x1242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/apple-touch-startup-image-828x1792.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/favicon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/firefox_app_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/firefox_app_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/favicon/mstile-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/GeekdocIcons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/GeekdocIcons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_AMS-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_AMS-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Caligraphic-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Caligraphic-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Caligraphic-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Caligraphic-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Fraktur-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Fraktur-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Fraktur-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Fraktur-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Main-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Math-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Math-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Math-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Math-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_SansSerif-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Script-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Script-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size1-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size1-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size2-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size2-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size3-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size3-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size4-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Size4-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Typewriter-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/KaTeX_Typewriter-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationMono.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationMono.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/LiberationSans.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/Metropolis.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/fonts/Metropolis.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/116-e257ea82.chunk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/273-2a781d96.chunk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/273-2a781d96.chunk.min.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/katex-d9813c46.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/main-8b6f2ee8.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/main-8b6f2ee8.bundle.min.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/mermaid-52c42ca6.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/search-254b9a1f.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/js/search-254b9a1f.bundle.min.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/mobile-1d04b92f.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/static/print-19966b38.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-geekdoc/theme.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,17 +18,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="25GzXOproLXC0ICRTO2ZIHJ5R4u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -141,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645168256277</updated>
       <workItem from="1645168258243" duration="16000" />
+      <workItem from="1690995614516" duration="513000" />
     </task>
     <servers />
   </component>
