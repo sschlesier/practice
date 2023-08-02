@@ -9,3 +9,6 @@ hugo.linux
 # Local Netlify folder
 .netlify
 .hugo_build.lock
+
+# webstorm
+.idea/workspace.xml

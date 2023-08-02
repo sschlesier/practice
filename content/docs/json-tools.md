@@ -48,20 +48,3 @@ https://github.com/tomnomnom/gron
 **JSONifies the output of many CLI tools, file-types, and common strings for easier parsing in scripts**
 
 https://github.com/kellyjonbrazil/jc/wiki/Tips-and-Tricks
-
-## Jp
-**Apply JMESPath to json**
-
-https://github.com/jmespath/jp
-
-## Jiq
-**Json interactive query is a repl for jq**
-
-`jiq -q` to output the jq query
-
-https://github.com/fiatjaf/jiq
-
-## Jmespath-terminal
-**A repl for jmespath**
-
-https://github.com/jmespath/jmespath.terminal
