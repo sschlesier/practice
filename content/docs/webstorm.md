@@ -1,13 +1,12 @@
-
-| Shortcut         | Action                                                       |
-|------------------|--------------------------------------------------------------|
-| Double ⇧         | Shift Search Everywhere                                      |
-| ⌘ Сmd ⇧          | Shift Find Action                                            |
-| Double ⌃         | Ctrl Run Anything                                            |
-| ⌥ Opt ↩         | Enter Show Context Actions                                   |
-| F2 ⇧             | Shift Navigate between code issues                           |
-| ⌘ Сmd 0E         | View recent files                                            |
-| ⌥ Opt 0↑        | Extend or shrink selection                                   |
-| ⌘ Сmd 0/         | Add/remove line or block comment                             |
-| ⌘ Сmd ⌥ Opt 0/   | Add/remove line or block comment with line comment prefix   |
-| ⌥ Opt F7         | Find Usages                                                  |
+| Shortcut | Action                                                    |
+|----------|-----------------------------------------------------------|
+| Double ⇧ | Shift Search Everywhere                                   |
+| ⌘ ⇧      | Shift Find Action                                         |
+| Double ⌃ | Ctrl Run Anything                                         |
+| ⌥ ↩      | Enter Show Context Actions                                |
+| F2 ⇧     | Shift Navigate between code issues                        |
+| ⌘ E      | View recent files                                         |
+| ⌥ ↑      | Extend or shrink selection                                |
+| ⌘ /      | Add/remove line or block comment                          |
+| ⌘ ⌥ /    | Add/remove line or block comment with line comment prefix |
+| ⌥ F7     | Find Usages                                               |
