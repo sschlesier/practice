@@ -2,7 +2,7 @@
 
 # docker pull klakegg/hugo
 # ver=$(ag -o '\d+\.\d+\.\d+' <(docker run --rm klakegg/hugo version))
-ver=$(ag -o '\d+\.\d+\.\d+' <(hugo version))
+ver=$(rg -o '\d+\.\d+\.\d+' <(hugo version))
 sed -i '' "s/HUGO_VERSION = \".*\"$/HUGO_VERSION = \"$ver\"/" netlify.toml
 
 git add --all
