@@ -20,6 +20,10 @@
 - `l` or `→` - Open file/enter directory
 - `o` - Open with system default (custom mapping)
 
+### Delete Files (no new mappings)
+- Use `space` to select one or more files (or leave on current file for single delete)
+- `:` then `delete` to remove selected/current files (lf will prompt for confirmation)
+
 ### Command Line
 - `:` - Enter command mode
 - `$` - Execute shell command
@@ -36,5 +40,6 @@
 
 ### Other
 - `q` - Quit
+- `Q` - Quit and cd
 - `Ctrl+l` - Redraw screen
 - `Ctrl+r` - Reload current directory
