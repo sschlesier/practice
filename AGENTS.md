@@ -30,6 +30,10 @@ Name content files with lowercase, hyphen-separated names such as `bash-history.
 
 There is no formal test framework in this repository. Validate changes by building with `hugo` and previewing with `./dev-in-docker` when layout or rendering may be affected. For Markdown-only edits, check front matter, heading hierarchy, tables, and fenced code blocks for valid rendering.
 
+## Deployment
+
+Site is deployed via Netlify using the `hugo` build command. Hugo version is pinned in `netlify.toml`.
+
 ## Commit & Pull Request Guidelines
 
 Recent history uses concise, imperative commit messages, with occasional Conventional Commit prefixes such as `docs:`. Prefer messages like `docs: add markdown cheatsheet`, `bump hugo to 0.155.3`, or `update lf docs`. Pull requests should describe the content or configuration changed, mention any local validation performed, and include screenshots when visual layout, navigation, or theme behavior changes.
