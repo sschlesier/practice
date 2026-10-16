@@ -3,9 +3,9 @@
 {{- $order := default "asc" (.Get "order") -}}
 {{- $showAnchor := (and (default true .Page.Params.geekdocAnchor) (default true .Page.Site.Params.geekdocAnchor)) -}}
 
-{{- if .Site.Data.properties }}
+{{- if hugo.Data.properties }}
   <dl class="gdoc-props">
-    {{- with (index .Site.Data.properties (split $name ".")) }}
+    {{- with (index hugo.Data.properties (split $name ".")) }}
       {{- $properties := .properties }}
       {{- with $sort }}
         {{- $properties = (sort $properties . $order) }}
@@ -49,7 +49,15 @@
             {{- end }}
           </div>
           <div class="gdoc-props__default">
-            {{- with default "none" (.defaultValue | string) }}
+            {{- $default := "" }}
+            {{- if and (eq .type "list") .defaultValue }}
+              {{- $default = delimit .defaultValue ", " }}
+            {{- else if and (eq .type "dict") .defaultValue }}
+              {{- $default = .defaultValue | jsonify }}
+            {{- else if .defaultValue }}
+              {{- $default = .defaultValue | string }}
+            {{- end }}
+            {{- with default "none" $default }}
               <span>{{ i18n "propertylist_default" | title }}:</span>
               <span>{{ . }}</span>
             {{- end }}
